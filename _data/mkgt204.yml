@@ -1,0 +1,404 @@
+course: Professional Selling
+code: MKTG 204
+description: what ever you want it to be 
+textbook: Selling Today (7th CDN Ed.)
+
+modules:
+- number: 1
+  start: Sep XX
+  name: Introduction
+  description: > 
+   Welcome to Professional Selling. In this course, we look at what happens when a professional sales person interacts directly with a customer to present information about product or service. This type of transaction typically occurs at the business-to-business level. Because it involves face-to-face interaction it is frequently refered to as Personal Selling.
+
+   The Information Age has made personal selling a strategic component of any sales strategy and an important differentiator in competative sales. In this type of economy, millions of knowledge workers succeed only when they add value to information. So we’ll begin by looking at how personal selling skills contribute to their work.
+  activities: 
+    Reading:  ": Chapter 1"
+    Quiz:  ": Quiz 1"
+    Live:  ": Conference 1"
+  assessments: 
+    Exercise: ": Exercise 1"
+    Discussion:  ": Discussion 1"
+    Assignment:  ": Assignment 1"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Summarize the three prescriptions of a personal sales philosophy in a definition.
+    - Describe how relationship selling has emerged in the information age.
+    - Explain the career options and rewards related to choosing a sales career.
+    - Explain the contribution of personal selling skills in the knowledge economy.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 2
+  start: Sep XX
+  name: The Evolution of Selling
+  description: > 
+   In this module, we look at the evolution of the Consultative Selling Model and the concept of value-added selling. Some of the most effective salespeople today are using the strategic consultative-selling approach to determine and fulfill their customers’ product and service needs. 
+  activities: 
+    Reading:  ": Chapter 2"
+    Quiz:  ": Quiz 2"
+    Live:  ": Conference 2"
+  assessments: 
+    Exercise: ": Exercise 2"
+    Discussion:  ": Discussion 2"
+    Assignment:  ": Assignment 2"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Discuss personal selling as an extension of the marketing concept.
+    - Summarize how consultative selling has evolved from the market era to now.
+    - List four broad strategies used in the Strategic/Consultative selling model.
+    - Distinguish between transactional,  personal selling and strategic partnerships in the marketplace.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 3
+  start: Sep XX
+  name: Ethics
+  description: > 
+   In this module, we look at ethics and the pervasive effect it has on professional sales. While ethical practices can vary from business, to culture, to country&mdash;every salesperson needs high standards to operate. Ethics are essential for establishing productive relationships with your customer and presenting a positive image for the compay you represent. 
+  activities: 
+    Reading:  ": Chapter 3"
+    Quiz:  ": Quiz 3"
+    Live:  ": Conference 31"
+  assessments: 
+    Exercise: ": Exercise 3"
+    Discussion:  ": Discussion 3"
+    Assignment:  ": Assignment 3"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of developing a relationship strategy for selling.
+    - Describe issues that challenge the ethical decision making of salespeople.
+    - Describe factors that influence the ethical conduct of sales people in the information age.
+    - Explain the social issues that make ethical decision challenging for salespeople.
+    - Summarize the environmental factors that shape ethical conduct for salespeople.
+    - Explain how partnering relationships are affected by ethical decision making.
+    - Demonstrate how personal codes of ethics create value in relationship selling.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 4
+  start: Sep XX
+  name: Building Relationships
+  description: > 
+   In this module, we look at how value is created through relationships. The manner in which salespeople establish, build, and maintain relationships is a very important aspect of personal selling.  Salespeople who are honest, accountable, and sincerely concerned about the customer’s welfare bring added value to the sale.
+  activities: 
+    Reading:  ": Chapter 4"
+    Quiz:  ": Quiz 4"
+    Live:  ": Conference 4"
+  assessments: 
+    Exercise: ": Exercise 4"
+    Discussion:  ": Discussion 41"
+    Assignment:  ": Assignment 4"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain how partnering adds value to sales relationships. (L2)
+    - Discuss how thought processes can enhance your relationship strategy. (L2) 
+    - Illustrate the non-verbal factors that influence selling relationships. (L2)
+    - Indicate the conversational strategies that help establish selling relationships. (L2) 
+    - Explain how to create a self-improvement plan using personal development strategies. (L5) 
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 5
+  start: Sep XX
+  name: Communication Styles
+  description: > 
+   In this module, we look at concept of communication-style bias and its implications for personal selling. One idea called Communication Style Flexing, contains a variety of tactics that can help you in your personal and professional life. 
+
+   Professionally, many sales are lost because effective relationships fail to develop between salesperson and customer. To connect with people, you need to be able to recognize and respond to communication styles of others. To create a productive working relationship, you also need to get in sync with the communication styles of the people around you.
+  activities: 
+    Reading:  ": Chapter 5"
+    Quiz:  ": Quiz 5"
+    Live:  ": Conference 5"
+  assessments: 
+    Exercise: ": Exercise 5"
+    Discussion:  ": Discussion 5"
+    Assignment:  ": Assignment 5"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain how communication styles influence the process of building relationships.
+    - Relate the two major dimensions of communication style to the four main styles. 
+    - Apply the four main styles of the communications model to the sales process.
+    - Distinguish preferred communication styles in yourself and your customer.
+    - Adapt (“style flex”) your communications style based on customer need.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+
+- number: 6
+  start: Sep XX
+  name: Creating Product Solutions
+  description: > 
+   In this module, we look at developing and communicating product solutions. As a salesperson, you need solid product knowledge in order to develop a successful sales plan. You also need to know about your competition and the market factors that affect the sales process. For example, when competing products are very similar, customers often find well crafted information about your company very appealing.
+  activities: 
+    Reading:  ": Chapter 61"
+    Quiz:  ": Quiz 61"
+    Live:  ": Conference 6"
+  assessments: 
+    Exercise: ": Exercise 6"
+    Discussion:  ": Discussion 6"
+    Assignment:  ": Assignment 6"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Demonstrate how to develop a product solution that adds value for the customer.
+    - Explain how product, company, competition and industry expertise improves personal selling.
+    - Source product, competitor, and industry information related to customer needs.
+    - Construct a feature-benefit strategy to add value to a sales presentation.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 7
+  start: Sep XX
+  name: Mid-term Exam
+  description: > 
+   In this module, XXXXXXXXXXXXXXXXXXXXXXXXXXXXX. 
+  activities: 
+    - Review - Chapter 1-6
+  assessments: 
+    - On-line
+  end: Sep XX
+  weight: 
+    - 20%
+  objectives:
+    - Pay attention to the announcements and see the critical path for the exact due dates. Click on the heading for further instructions.
+- number: 8
+  start: Sep XX
+  name: Prospecting
+  description: > 
+   In this module, we’ll breach the topic of identifying new potential customers. This activity is often called prospecting or account development. The goal of prospecting is to build a prospect base made up of current customers and potential customers. Attrition and other changes, make this a constant and ongoing activity that is critical to business survival. As part of this topic, we’ll cover several effective methods of prospecting to find new customers. 
+  activities: 
+    Reading:  ": Chapter 9"
+    Quiz:  ": Quiz 8"
+    Live:  ": Conference 8"
+  assessments: 
+    Exercise: ": Exercise 8"
+    Discussion:  ": Discussion 8"
+    Assignment:  ": Assignment 8"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain why developing a pool of prospects is necessary for maintaining a healthy business.
+    - Locate various sources for finding prospects and accounts.
+    - Qualify contacts into prospects and accounts using established criteria.
+    - Explain how to collect and organize information about customers and prospects.
+    - Demonstrate to your customers, the industry and market knowledge they value.
+    - Summarize the common steps used to manage a sales pipeline.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 9
+  start: Sep XX
+  name: Approaching the Customer
+  description: >
+   In this module, we look at effective ways to approach the customer with adaptive selling. Careful pre-sale planning, tailored to the prospect’s needs, is important for the sales presentation. Such planning enables the salesperson to approach the presentation with greater self confidence.
+  activities: 
+    Reading:  ": Chapter 10"
+    Quiz:  ": Quiz 9"
+    Live:  ": Conference 9"
+  assessments: 
+    Exercise: ": Exercise 9"
+    Discussion:  ": Discussion 9"
+    Assignment:  ": Assignment 9"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain how to develop a presentation strategy using the three prescriptions.
+    - Differentiate the approach from the pre-approach phase of initiating contact.
+    - Employ two or more strategies for conducting team presentations.
+    - Explain how adaptive selling builds on four strategic areas of personal selling.
+    - Use the six-step presentation plan to organize the consultation process. 
+    - Determine the best way to approach the customer effectively.
+    - Use at least one of seven common ways to arouse your prospect’s interest.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 10
+  start: Sep XX
+  name: Determining Customer Needs
+  description: > 
+   In this module, we look at established methods to find out what your customer really needs. Identifying and understanding customer needs is critical for providing solutions and creating value. Competent sales personnel know how to skillfully diagnose and solve customer problems using an approach that is truly an extension of the marketing concept – the consultative questioning strategy.
+  activities: 
+    Reading:  ": Chapter 11"
+    Quiz:  ": Quiz 10"
+    Live:  ": Conference 10"
+  assessments: 
+    Exercise: ": Exercise 10"
+    Discussion:  ": Discussion 10"
+    Assignment:  ": Assignment 10"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain how the consultative sales process adds value.
+    - Use all four parts of the need-satisfaction model in the consultation process.
+    - Apply the consultative questioning strategy to customer needs assessment.
+    - Use active listening and confirmation questions when collecting information.
+    - Match the correct solution to a customer’s need in at least one scenario.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 11
+  start: Sep XX
+  name: The Sales Presentation
+  description: > 
+   In this module, we look at how to create value using a consultative presentation. The consultative presentation is a salesperson’s opportunity to further understand customer needs and generate a solution to fulfill the needs identified. One way to achieve this end is through a sales demonstration. The sales demonstration is a time-proven strategy that strengthens the consultative-style sales presentation by attracting the customer’s attention, stimulating interest, and creating desire.
+  activities: 
+    Reading:  ": Chapter 11"
+    Quiz:  ": Quiz 11"
+    Live:  ": Conference 11"
+  assessments: 
+    Exercise: ": Exercise 11"
+    Discussion:  ": Discussion 11"
+    Assignment:  ": Assignment 11"
+  end: Sep XX 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the three types of need-satisfaction presentation strategies.
+    - Present guidelines for consultative selling that add value to the presentation.
+    - Summarize the elements of persuasive strategy that go into a sales presentation.
+    - Summarize the elements of effective presentations for group sales.
+    - Construct sales tools that add value to your customer demonstrations.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 12
+  start: Sep XX
+  name: Negotiating Buyer Concerns
+  description: > 
+   In this module, we look the engaging topic of Buyer Concerns. Sales resistance is a natural circumstance of many sales presentations. It often gives salespeople an opportunity to learn more about how to satisfy their prospect’s needs. Understanding common sources of Buyer resistance, and how to address them during negotiations and add value in the process, is a key step towards making the business work. 
+  activities: 
+    Reading:  ": Chapter 12"
+    Quiz:  ": Quiz 12"
+    Live:  ": Conference 12"
+  assessments: 
+    Exercise: ": Exercise 12"
+    Discussion:  ": Discussion 12"
+    Assignment:  ": Assignment 12"
+  end: Sep XX 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Use the negotiation process as part of a win-win strategy.
+    - Anticipate common types of buyer concerts that occur during negotiations.
+    - Explain specific negotiating methods that address buyer concerns.
+    - Demonstrate methods to create value during a negotiation.
+    - Describe how to work with buyers that are trained in negotiations strategy.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 13
+  start: Sep XX
+  name: Closing the Sale
+  description: > 
+   If everything is handled properly throughout the Sales Presentation, closing the sale may feel like a natural extension of the process. But there are common issues that often can arise, and some proven approaches to help avoid them, or to detect them, and manage them if they arise. 
+  activities: 
+    Reading:  ": Chapter 3"
+    Quiz:  ": Quiz 13"
+    Live:  ": Conference 13"
+  assessments: 
+    Exercise: ": Exercise 13"
+    Discussion:  ": Discussion 13"
+    Assignment:  ": Assignment 13"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the proper attitude to display in the closing phase of the sales process.
+    - Discuss how to use the recommended guidelines for closing a sale.
+    - Explain the verbal and non-verbal clues that indicate a customer is ready to close.
+    - Apply different methods for closing a sale based on customer need.
+    - Review what steps to take when buyers say yes and when they say no.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 14
+  start: Sep XX
+  name: Servicing the Sale
+  description: >
+   In this module, we look at the practice of servicing a sale and building the partnership further. In broad terms, personal selling is a two-dimensional process. First you must make the sale, and then you must service the sale. Both dimensions of the selling-buying process are important. In many ways, servicing the current sale with a customer is the beginning of the next sale process. 
+  activities: 
+    Reading:  ": Chapter 4"
+    Quiz:  ": Quiz 14"
+    Live:  ": Conference 14"
+  assessments: 
+    Exercise: ": Exercise 14"
+    Discussion:  ": Discussion 14"
+    Assignment:  ": Assignment 14"
+  end: Sep XX
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain how customer service is critical to building long-term partnerships.
+    - Describe current service developments in the field of customer satisfaction.
+    - Review the major customer service methods that help strengthen partnerships.
+    - Explain how expansion selling adds value in the customer follow-up process.
+    - Explain how to keep customers by dealing effectively with complaints.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 15
+  start: Sep XX
+  name: Final Exam
+  activities: 
+    - Review - Chapter 1-14
+  assessments: 
+    - Room 777
+  end: Sep XX
+  weight: 
+    - 30%
+  objectives:
+    - Pay attention to the announcements and see the critical path for the exact due dates. Click on the heading for further instructions.
+...

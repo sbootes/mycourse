@@ -1,0 +1,296 @@
+course: Human Resources Administration
+code: BMGT 205
+description: what ever you want it to be 
+textbook: Developmental Psychology - A Topical Approach (16th ed.)
+
+modules:
+- number: 1
+  start: May 31
+  name: Introduction
+  description: This is a description
+  activities: 
+    Reading:  ": Chapter 1"
+    Quiz:  ": Quiz 1"
+    Live:  ": Conference 1"
+  assessments: 
+    Exercise: ": Exercise 1"
+    Discussion:  ": Discussion 1"
+    Assignment:  ": Assignment 1"
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+  topics:
+    - "Topic #1"
+    - "Topic #2"
+    - "Topic #3"
+- number: 2
+  start: May 13
+  name: Commentary
+  activities: 
+    - Reading - Chapter 2
+    - Quiz 2
+    - Live Conference 2
+  assessments: 
+    - Exercise 2
+    - Discussion 2
+    - Assignment 2
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 3
+  start: May 24
+  name: Project
+  activities: 
+    - Reading - Chapter 3
+    - Quiz 3
+    - Live Conference 3
+  assessments: 
+    - Exercise 3
+    - Discussion 3
+    - Assignment 3
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 4
+  start: May 24
+  name: Research
+  activities: 
+    - Reading - Chapter 4
+    - Quiz 4
+    - Live Conference 4
+  assessments: 
+    - Exercise 4
+    - Discussion 4
+    - Assignment 4
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 5
+  start: May 24
+  name: Live Conference
+  activities: 
+    - Reading - Chapter 5
+    - Quiz 5
+    - Live Conference 5
+  assessments: 
+    - Exercise 5
+    - Discussion 5
+    - Assignment 5
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 6
+  start: May 24
+  name: Project
+  activities: 
+    - Reading - Chapter 6
+    - Quiz 6
+    - Live Conference 6
+  assessments: 
+    - Exercise 6
+    - Discussion 6
+    - Assignment 6
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 7
+  start: May 31
+  name: Mid-term Exam
+  activities: 
+    - Review - Chapter 1-7
+  assessments: 
+    - On-line
+  end: May 10
+  weight: 
+    - 20%
+  objectives:
+    - Pay attention to the announcements and see the critical path for the exact due dates. Click on the heading for further instructions.
+- number: 8
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading - Chapter 8
+    - Quiz 8
+    - Live Conference 8
+  assessments: 
+    - Exercise 8
+    - Discussion 8
+    - Assignment 8
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 9
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading - Chapter 9
+    - Quiz 9
+    - Live Conference 9
+  assessments: 
+    - Exercise 9
+    - Discussion 9
+    - Assignment 9
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 10
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading - Chapter 10
+    - Quiz 10
+    - Live Conference 10
+  assessments: 
+    - Exercise 10
+    - Discussion 10
+    - Assignment 10
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 11
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading - Chapter 11
+    - Quiz 11
+    - Live Conference 11
+  assessments: 
+    - Exercise 11
+    - Discussion 11
+    - Assignment 11
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 12
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading - Chapter 12
+    - Quiz 12
+    - Live Conference 12
+  assessments: 
+    - Exercise 12
+    - Discussion 12
+    - Assignment 12
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 13
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading Chapter 13
+    - Quiz 13
+    - Live Conference 13
+  assessments: 
+    - Exercise 13
+    - Discussion 13
+    - Assignment 13
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 14
+  start: May 31
+  name: Introduction
+  activities: 
+    - Reading Chapter 14
+    - Quiz 14
+    - Live Conference 14
+  assessments: 
+    - Exercise 14
+    - Discussion 14
+    - Assignment 14
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: 15
+  start: May 31
+  name: Final Exam
+  activities: 
+    - Review - Chapter 1-14
+  assessments: 
+    - Room 777
+  end: May 10
+  weight: 
+    - 30%
+  objectives:
+    - Pay attention to the announcements and see the critical path for the exact due dates. Click on the heading for further instructions.
+...

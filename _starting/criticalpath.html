@@ -1,0 +1,166 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Critical Path</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Getting Started Section">
+  <meta name="author" content="Scott Bootes">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+ 
+  <style>
+  .brand{
+	background: #0097a9;
+	color:white;
+  }
+	.page-header{
+   		margin-top: -20px;
+		padding-top: 0px;
+		background: url(img/compass_rose.jpg) no-repeat center top;
+		background-size: 100% 100%;
+		width: auto;
+		/* height: 400px; */
+		}
+	h1 {
+		padding-top: 40px;
+		font-size: 4em;
+		font-weight: bold;
+		text-align: center;
+		color:#FFF;
+		/* transform: translateY(50%); */
+		}
+	th {
+		font-weight: normal;
+		text-align: left;
+		vertical-align: top;
+		background: none;
+		}
+	td {
+		font-weight: normal;
+		text-align: left;
+		vertical-align: top;
+		}
+	.summary {
+		font-weight: bold;
+		text-align: center;
+		vertical-align: top;
+		}
+
+  </style>
+  </head> 
+  <body>
+  <!-- Page Header -->
+      <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-sm-12 column">
+                <!-- Change the name of the banner to banner.jpg in the image folder -->
+                <header class="intro-header" style="background-image: url('../images/banner.jpg')">
+                    <h1>Critical Path<br /><small style="color: white;">{{ site.data.bmgt205.course }}, {{ site.data.bmgt205.code }}, [Semester]</small> <br /> 
+                    <!-- <button type="button" class="btn btn-danger btn-lg" onclick="myFunction()">&nbsp;&nbsp;Print&nbsp;&nbsp;</button> --> </h1>
+                </div>
+                <p>The critical path is your course schedule. It is identifies the tasks you are expected to accomplish each week in order to ensure your academic success. You are strongly advised to print out a copy of the critical path and to refer to it regularly. Use the Print command on your browser to make a copy.</p>
+			</div>
+        </div>
+    <div class="row clearfix">
+ 		<div class="col-sm-12">
+            <table class="table table-hover">
+            <thead>
+              <tr class="brand">
+                <th width="5%" scope="col">#</th>
+                <th width="10%" scope="col">Start Date</th>
+                <th width="20%" scope="col">Module</th>
+                <th width="20%" scope="col">Activities</th>
+                <th width="20%" scope="col">Assessments</th>
+                <th width="10%" scope="col">Due Date</th>
+                <th width="5%" scope="col">Weight</th>
+                <!-- align="left" valign="top" -->
+              </tr>
+            </thead>  
+            <tbody>
+            {% for module in site.data.bmgt205.modules %}
+                <tr>
+                    <th scope="row">{{ module.number }}</th>
+                    <td>{{ module.start }}</td>
+                    <td>{{ module.name }}</td>
+                    <td><ul>
+                        {% for activity in module.activities %}
+                        <li>{{ activity }}</li>
+                        {% endfor %}
+                        </ul></td>
+                    <td><ul>
+                        {% for assessments in module.assessments %}
+                        <li>{{ assessments }}</li>
+                        {% endfor %}
+                        </ul></td>
+                    <td>{{ module.end }}</td>
+                    <td><ul>
+                        {% for weight in module.weight %}
+                        <li>{{ weight }}</li>
+                        {% endfor %}
+                        </ul></td>
+                </tr>
+             {% endfor %}    
+          <tr class="brand">
+                <td colspan="6" style="font-weight: bold; text-align: center;">Summary</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left" valign="top">Total for Participation (Discussion &amp; Collaboration)</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left" valign="top">Total for all Quizzes</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left" valign="top">Total for all Assignments</td>
+                <td>60%</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left" valign="top">Final Exam</td>
+                <td>20%</td>
+            </tr>
+            <tr class="brand">
+                <td colspan="6" align="left" valign="top"><strong>TOTAL</strong></td>
+                <td><strong>100%</strong></td>
+            </tr>
+               
+            </tbody>
+            </table>
+          <br />
+		</div>
+	</div>
+</div>
+    <!-- Footer: Do not change -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                    <p class="copyright">©
+                        <script type="text/javascript">
+                            var theDate = new Date()
+                            document.write(theDate.getFullYear())
+                        </script> by Humber College - All rights reserved</p>
+                    <!-- <a href="readreflect.html"><button type="button" class="btn btn-default btn-lg">Next</button></a> -->
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    &nbsp;  
+	<!-- <script>function myFunction() { window.print();} </script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

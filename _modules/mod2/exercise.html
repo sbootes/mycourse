@@ -1,0 +1,60 @@
+---
+layout: module
+type: Exercise
+permalink: "modules/mod2/exercise.html"
+order: 4
+---
+<!-- <section class="content"> -->
+<!-- Page Header -->
+    <!-- Change the name of the banner to banner.jpg in the image folder -->
+    <header class="intro-header" style="background-image: url('../images/banner.jpg')">
+    	<!-- repace "banner.jpg" in the images directory with the image you want -->
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><!--Bootstrap grid-->
+                    <div class="page-heading">
+                        <h1>{{page.type}}</h1>
+                        <hr class="small">
+                        <h2 class="subhead">
+                            {% for module in site.data.bmgt205.modules %}
+                                {% if module.number == 1 %}
+                                    {{ module.name }}  
+                                {% endif %}
+                            {% endfor %}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  <!-- Main Content -->
+    <div class="container fcolumn editable">
+        <div class="row">
+           <h2 class="section-heading">Topic Name</h2>
+           <img src="../images/exercise.jpg" width="300" style="float: right;" alt="a symbolic picture of two faces talking">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt erat id cursus mollis. Integer ut leo quam. Donec vel quam ac lorem maximus convallis ac id sem. Morbi sed sagittis augue. Nam ullamcorper justo ac velit vehicula, vitae aliquam libero porttitor. Pellentesque sed erat at est tempor convallis. Sed non ligula ipsum. Morbi ac elementum neque. Mauris mollis lacus velit, quis laoreet risus viverra ac.</p>
+	           <h3>Questions</h3>
+              <p>Answer these questions in your journal:</p>
+              <ol>
+                <li>When did you recognize the need to attend further schooling? Was it a sudden recognition or did it evolve? When did you begin to act on it? How?</li>
+                <li>At what point did you start your information search? Was it quickly or did you search out information over the course of many months/years? Consider how important social and family input was. How important was the information provided by the college?</li>
+                <li>What other programs made it to your short list? What was your evaluation “criteria”? How did you narrow down your choices?</li>
+                <li>How did you ultimately make your decision? Was there anything that swayed you at the last minute? (Consider things like financing, timing, government policies, etc.)</li>
+                <li>Can you recognize any post purchase satisfaction or dissatisfaction? When do you think you will know if you’ve made the right decision? How will you know?</li>
+              </ol>
+              <h3>On the Journal Page</h3>
+              <p>To submit your answers:</p>
+              <ol>
+                <li>Click Journals on the side menu then scroll to the name of the journal.</li>
+                <li>Click the journal name to open the Journals page.</li>
+                <li>Click the Create Journal Entry button to start a new entry.</li>
+                <li>Record your answers to the questions for this week and explain why.</li>
+                <li>Click the Add button to log your entry.</li>
+              </ol>
+              <p><strong>Note:</strong>&nbsp;Be sure to use proper grammar and spelling.</p> 
+                <div class="well" style="width: 80%;">         
+              	<h3>Evaluation</h3>
+              		<p>This exercise is not marked. However, working through it will help make the other parts of this module easier to understand. Your instructor may also check your journal once in a while, to make sure that you understand the concepts and are keeping up with the work.</p>
+        </div><!--row-->
+    </div><!--container-->
+<!-- </section> -->

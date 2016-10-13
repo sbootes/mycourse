@@ -1,0 +1,29 @@
+---
+permalink: "exercise.html"
+order: 4
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+    {% include header.html %}
+
+    <body>
+<!-- <body id="page-top"> -->
+{% include nav_stat.html %}
+<!-- Main Content -->
+    <div class="container fcolumn editable">
+        <div class="row">
+            <img src="../../images/exercise.jpg" class="img-responsive" style="float: right;" alt="a symbolic picture of a brain">
+            {{content}} 
+
+            <div class="well" style="width: 80%;">         
+          	  <h3>Evaluation</h3>
+              <p>This exercise is not marked. However, working through it will help make the other parts of this module easier to understand. Your instructor may also check your journal once in a while, to make sure that you understand the concepts and are keeping up with the work.</p>
+            </div>
+        </div><!--row-->
+    </div><!--container-->
+<!-- </section> -->
+{% include foot.html %}
+</body>
+</html>

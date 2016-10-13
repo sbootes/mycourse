@@ -1,0 +1,54 @@
+---
+layout: module
+type: Commentary
+permalink: "modules/mod2/commentary.html"
+order: 2
+---
+<!-- <section class="content"> -->
+<!-- Page Header -->
+    <!-- Change the name of the banner to banner.jpg in the image folder -->
+    <header class="intro-header" style="background-image: url('../images/banner.jpg')">
+    	<!-- repace "banner.jpg" in the images directory with the image you want -->
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><!--Bootstrap grid-->
+                    <div class="page-heading">
+                        <h1>{{page.type}}</h1>
+                          <hr class="small">
+                        <h2 class="subhead">
+                            {% for module in site.data.bmgt205.modules %}
+                                {% if module.number == 1 %}
+                                    {{ module.name }}  
+                                {% endif %}
+                            {% endfor %}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container fcolumn editable">
+        <div class="row">
+           <p>This week ...     .</p>
+            <h2 class="section-heading">Topic Heading</h2>
+            <img src="../images/commentary.jpg" class="img-responsive" style="float: right;" alt="stock market trading board">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare in nisl et rhoncus. Sed pulvinar rutrum nulla sit amet placerat. Cras vehicula, ligula ut iaculis bibendum, lacus ante porta justo, a consectetur nunc velit eget risus. Pellentesque sed lorem at lectus varius efficitur. Fusce ullamcorper eget metus vitae ullamcorper. Vestibulum diam nibh, malesuada non vehicula sed, placerat quis dolor. Pellentesque congue ac enim blandit blandit. Nunc eu urna odio. &nbsp;<a href="#" onclick="toggle_visibility('one');">[more ...]</a> </p>
+            <div id="one" style="display:none;">
+            <p>Mauris laoreet, nulla sed malesuada molestie, odio tellus commodo velit, id molestie eros dui ac lectus. Vivamus consequat, enim quis varius imperdiet, elit quam mattis sapien, nec volutpat velit nibh eget quam. Duis nulla augue, accumsan sit amet massa sit amet, consectetur ultricies nunc. Quisque ornare lacus et facilisis pulvinar. In ac tellus volutpat, pretium ante vitae, sollicitudin elit. Maecenas fringilla viverra imperdiet. Donec nunc augue, mollis a eros quis, accumsan porta elit. Donec et elementum lacus, eu mattis tortor.</p>
+            <p>Curabitur risus eros, facilisis at hendrerit quis, iaculis sit amet felis. Curabitur euismod, metus non ultricies tincidunt, tortor libero scelerisque diam, non faucibus risus nunc ac leo. Duis mollis et orci at sollicitudin. Nulla erat eros, interdum eu luctus facilisis, mattis vel nunc. Vestibulum accumsan vel elit sit amet maximus. In eu purus in augue dapibus maximus. Phasellus ac mi vitae dui interdum tincidunt id nec nisl. Pellentesque et sapien nec est mollis eleifend. Cras vel odio tempus, vestibulum arcu et, tempus purus. </p>
+            </div>
+            <h2 class="section-heading">Sub-topic heading</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>You can read more about this on pages 46 – 53 of Chapter 3 in your textbook.</p>
+            <h2 class="section-heading">Sub-topic heading</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+           <h2 class="section-heading">Sub-topic heading</h2>
+<p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>You can read more about measurement of Money on pages 53-56 of chapter 3 in your textbook.</p>
+        </div><!--row-->
+    </div><!--container-->
+<!-- </section> -->

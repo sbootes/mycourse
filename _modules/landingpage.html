@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.data.bmgt205.code }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="scott bootes">
+    <!-- Core Style Sheet Bootstrap v3.3.4 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Page Header -->
+    <!-- Change the name of the banner to banner.jpg in the image folder -->
+    <header class="intro-header" style="background-image: url('../images/banner.jpg')">    
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <!--Bootstrap grid-->
+                    <div class="page-heading">
+                        <h1>{{ site.data.bmgt205.course }}</h1>
+                        <hr class="small">
+                        <h2 class="subhead">{{ site.data.bmgt205.code }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container gcolumn">
+        <div class="row">            
+            {% for module in site.data.bmgt205.modules %}
+            <h2><a href="mod{{ module.number }}/overview.html">Module {{ module.number }}: {{ module.name }}</a></h2>
+            <a href="mod{{ module.number }}/overview.html" align="left"><img class="icon" src="../assets/ico/week{{ module.number }}.jpg"></a>
+            <p>By the end of this module, you should be able to:</p>
+                <ul style="overflow: hidden;">
+      				{% for objectives in module.objectives %}
+                        <li>{{ objectives }}</li>
+                        {% endfor %}
+                <br />    
+            </ul>
+            <hr>
+            {% endfor %} 
+        </div>
+    </div>
+    <br>
+    <!-- Footer: Do not change -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                    <p class="copyright">©
+                        <script type="text/javascript">
+                            var theDate = new Date()
+                            document.write(theDate.getFullYear())
+                        </script> by Humber College - All rights reserved</p>
+                    <!-- <a href="readreflect.html"><button type="button" class="btn btn-default btn-lg">Next</button></a> -->
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    &nbsp;
+    <!-- javascript links so page loads faster: Do not change -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript: Do not change -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript: Do not change -->
+    <script src="../../assets/js/clean-blog.min.js"></script>
+
+
+</body>
