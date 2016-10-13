@@ -1,0 +1,90 @@
+---
+layout: module
+type: Discussion
+permalink: "discusion.html"
+order: 5
+---
+<!-- <section class="content"> -->
+
+<nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <a href="#"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button></a>
+                <a class="navbar-brand" href="../landingpage.html">Module 1</a>
+        </div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+          {% for order in (1..10) %}
+            {% for p in site.pages %}
+                {% if p.order == order %}
+          <li>
+            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.permalink }}">{{ p.type }}</a>
+          </li>
+                {% endif %}
+            {% endfor %}
+          {% endfor %}
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!-- Page Header -->
+    <!-- Change the name of the banner to banner.jpg in the image folder -->
+    <header class="intro-header" style="background-image: url('../images/banner.jpg')">	
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><!--Bootstrap grid-->
+                    <div class="page-heading">
+                        <h1>{{page.type}}</h1>
+                        <hr class="small">
+                        <h2 class="subhead">
+                            {% for module in site.data.bmgt205.modules %}
+                                {% if module.number == 1 %}
+                                    {{ module.name }}  
+                                {% endif %}
+                            {% endfor %}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   <!-- Main Content -->
+  <div class="container fcolumn editable">
+  	<div class="row">
+    	<h2 id="1" class="section-heading">Discussion 1 - Introduce Yourself</h2>
+        <img src="../images/discussion.jpg" width="300" style="float: right;" alt="picture of a group of people talking"> 
+        	<p>Start the course by introducing yourself to the  instructor and other students. Tell us a little bit about who you are. Then send a message to someone else to say hello and find out something about them.  Here are some questions you might like to answer:
+            <ul>
+            	<li>Where do you live?</li>
+            	<li>Where do you work?</li>
+                <li>What are you studying? What program are you in?</li>
+            	<li>Have you ever taken an online course before?</li>
+            	<li>What do you hope to learn from this course? </li>
+            </ul>
+            
+            <h3>Instructions</h3>
+            <ol>
+            	<li>Click Discussion Board on the side menu then scroll to the name of the discussion.</li>
+                <li>Click the discussion name to open the discussion page then click Create Thread.</li>
+                <li>In the Subject  text box, type your name.</li>
+                <li>In the Message box,  type your personal information.</li>
+                <li>Click Submit.</li>
+            </ol>
+        <h3>Criteria</h3>
+            <p>Your response should focus on one main idea in no more than a couple of paragraphs. Make sure that you contribute an original idea or build on someone else's idea in a meaningful way. Keep your sentences short and readable. Think though your response using the textbook to back up your answers and explain why. </p>
+        <p>Once you have posted your answers, look at the  other postings in this discussion and provide comments to at least two other people. Follow Humber's &quot;<a href="../../starting/netiquette.html">netiquette</a>&quot; policy and be constructive and  respectful in your comments - especially when you disagree.</p>
+        <p>This discussion is worth 8 points, which are converted into 1 percent of your overall grade. Open the <a href="../../source/rubrics/DiscussionRubric.docx" target="_blank">rubric page</a> to see how this discussion is marked.</p>
+        <p>&nbsp;</p>
+  </div><!--row-->
+</div><!-- container-->
+<!-- </section> -->
