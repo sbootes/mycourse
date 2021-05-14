@@ -1,2 +1,2 @@
 # mycourse
-This is a template for a 15-week diploma course in Jekyll with auto-generating critical-path and landing pages
+This is a template for a 14-week diploma course. It uses data files to generate files and navigation in Jekyll but there is no Theme. 
