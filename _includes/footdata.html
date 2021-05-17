@@ -1,0 +1,35 @@
+<!-- Footer: Do not change -->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <p class="copyright">&copy; <script type="text/javascript">var theDate=new Date()		
+					document.write(theDate.getFullYear())</script> by Humber College - All rights reserved</p>
+                
+           {% for nav in site.data.nav %}
+                {% if nav.title == page.title and nav.title != "Overview" %}
+                    <a href="{{- nav.before -}} "><button type="button" class="btn btn-light btn-lg">Back</button></a>
+                {% endif %}
+                {% if nav.title == page.title and nav.title != "Assignment" %}
+                    <a href="{{- nav.after -}} "><button type="button" class="btn btn-light btn-lg">Next</button></a> 
+                {% endif %} 
+            {% endfor %}  
+            <p>&nbsp;</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- javascript links so page loads faster: Do not change -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript">
+		function toggle_visibility(id) {
+		var e = document.getElementById(id);
+		if(e.style.display == 'none')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+		  }
+    </script> -->
+</body>
+</html>

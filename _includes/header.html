@@ -1,0 +1,21 @@
+<!-- Page Header -->
+    <!-- Change the name of the image to banner.jpg in the image folder -->
+    <header class="intro-header jarallax d-print-shrink 50% !important" style="background-image: url('../../images/banner.jpg') ">
+         <div class="container-fluid">
+            <div class="row" >
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>{{page.type}}</h1>
+                        <hr class="small" />
+                        <h1 class="subhead">
+                            {% for module in site.data.bmgt205.modules %}
+                                {% if module.number == 1 %}
+                                    {{ module.name }}  
+                                {% endif %}
+                            {% endfor %}
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
