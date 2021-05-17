@@ -1,48 +1,52 @@
 ---
+title: Assignment
 permalink: "assignment.html"
 order: 6
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-    {% include header.html %}
+{% include head.html %}
 
 <body>
 <!-- <body id="page-top"> -->
-{% include nav_stat.html %}
-<!-- Main Content -->
+{% include navdata.html %}    
+    
+{% include header.html %} 
 
-    <div class="container lcolumn">
-        <div class="row">
-          {{content}}
-         
-         <h3>Instructions</h3>
-         <p>To submit your assignment:</p>
-         <ol>
-         <li>Click Assignments on the side menu then scroll to the name of the assignment.</li>
-         <li>Click the assignment name to open the Preview Upload Assignment page.</li>
-         <li>Click the Browse My Computer button on the Dropbox page then navigate to the assignment file in the File Upload window.</li>
-         <li>Select the assignment file then click the Open button to upload the file.</li>
-         <li>Add any comments about your assignment in the Comments field.</li>
-         <li>5	Click the Submit button to save your assignment for marking.</li>
-         </ol>
-         <p><strong>Note:</strong>&nbsp;Name the file using your first initial, last name, and the number of the assignment. For example, “tjones1.doc” for Tom Jones’ assignment 1.</p>
-         <p>&nbsp;</p> 
-        </div><!--row-->
-    </div><!--container-->
-		<div class="container rcolumn assignment">
-			<h1>Due: <a href="../../starting/criticalpath.html">Critical Path</a></h1>
-            <h1>Points: XX</h1>
-<a href="../../source/rubrics/AssignmentRubric4Ps.docx" target="_blank"><button type="button" class="btn btn-danger btn-lg btn-block">Rubric</button></a>
-            <h3>Evaluation:</h3>
-            <p>This assignment is converted into 1 percent of your overall grade. Allow 7 days for your assignment to be marked and returned. When posted, your grade appears in the My Grades area under My Tools.</p>
-            <h3>Lates:</h3>
-            <p>Late assignments are accepted with a penalty of 10 percent per day. After 2 days, the assignment is no longer accepted.</p>
-            <br /><br />
+<!-- Main Content --> 
+<div class="container-fluid editable">
+    <div class="row">
+        <div class="col-md-8">
+            {{content}}            
+            <p><strong>Note:</strong> Humber College requires the use of American Psychological Association (APA) style for all citations, quotes, and references. Use the <a href="../../articles/TipSheetAPA.pdf">APA Tip sheet</a> to check the  formatting in your paper before submitting an assignment.</p>
+            <h3>Instructions</h3>
+            <p>To submit your assignment:</p>
+            <ol>
+                <li>Click Assignments on the side menu then scroll to the name of the assignment.</li>
+                <li>Click the assignment name to open the Preview Upload Assignment page.</li>
+                <li>Click the Browse My Computer button on the Dropbox page then navigate to the assignment file in the File Upload window.</li>
+                <li>Select the assignment file then click the Open button to upload the file.</li>
+                <li>Add any comments about your assignment in the Comments field.</li>
+                <li>Click the Submit button to save your assignment for marking.</li>
+            </ol>
+            <p><strong>Note:</strong>&nbsp;Name the file using your first initial, last name, and the number of the assignment. For example, “tjones1.doc” for Tom Jones’ assignment 1.</p>
+            <p>&nbsp;</p> 
+        </div>
+        <div class="col-md-3">
+            <div class="card assignment">
+                <div class="card-body">
+                    <h2 style="padding-top:1rem;">Due: <a href="../../starting/criticalpath.html">Critical Path</a></h2>
+                    <h2>Points: XX</h2>
+                    <a href="../../source/rubrics/AssignmentRubric.docx" target="_blank"><button type="button" class="btn btn-danger btn-lg btn-block">Rubric</button></a>
+                    <h3 style="padding-top:1rem;">Evaluation:</h3>
+                    <p>This assignment is converted into XX percent of your overall grade. Allow 7 days for your assignment to be marked and returned. When posted, your grade appears in the My Grades area under My Tools.</p>
+                    <h3>Lates:</h3>
+                    <p>Late assignments are accepted with a penalty of 10 percent per day. After 2 days, the assignment is no longer accepted.</p>
+                </div>
+            </div>
+        </div>
     </div>
-
+</div>
 <!-- </section> -->
-{% include foot.html %}
-</body>
-</html>
+{% include footdata.html %}

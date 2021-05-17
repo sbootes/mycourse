@@ -1,81 +1,99 @@
 ---
+title: Overview
 permalink: "overview.html"
 order: 1
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-    {% include header.html %}
+{% include head.html %}
 
 <body>
 <!-- <body id="page-top"> -->
-{% include nav_stat.html %}
+{% include navdataOver.html %}    
+    
+{% include header.html %} 
+ 
+<!-- Main Content --> 
+<div class="container-fluid editable">
+    <div class="row">
+        <div class="col-sm-8">
+            {{content}} 
 
-<!-- <section class="content"> -->
-    <div class="container lcolumn editable">
-        <div class="row">
-            {{content}}    
-      		
+            {%- assign modules = site.data.bmgt205.modules | where: "number", 01 -%}
+            {%- for module in modules -%}
             <h2 class="section-heading">Learning outcomes</h2> 
                 <p>By the end of this module, you will be able to:</p>
-			     <ul>
-                    {% for module in site.data.bmgt205.modules %}
-                        {% if module.number == 1 %}
-                            <li>{{ module.objectives }}</li>  
-                        {% endif %}
-                    {% endfor %}      		    
+                {%- if module.objectives -%}
+                <ul>
+                    {%- for objective in module.objectives -%}
+                    <li>{{- objective -}}</li>
+                    {%- endfor -%}
                 </ul>
+                {%- endif -%}
             <h2 class="section-heading">Topics</h2>
 	  			<p>In this module, we plan to discuss:</p>
-				<ul>
-                    {% for module in site.data.bmgt205.modules %}
-                        {% if module.number == 1 %}
-                            <li>{{ module.topics }}</li>  
-                        {% endif %}
-                    {% endfor %}      		    
-                </ul>
-			 <h2 class="section-heading">Required readings</h2>
+				{%- if module.topics -%}
                 <ul>
-                    <li>{{ site.data.bmgt205.textbook }} 
-                            {% for module in site.data.bmgt205.modules %}
-                                {% if module.number == 1 %}
-                                    {{ module.activities.Reading }}</li>  
-                                {% endif %}
-                            {% endfor %}
-				</ul>
+                    {%- for topic in module.topics -%}
+                    <li>{{- topic -}}</li>  
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+            <h2 class="section-heading">Required readings</h2>
+                {%- if module.articles -%}
+                <ul>
+                    {%- for article in module.articles -%}
+                    <li>{{- article -}}</li>  
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+            
             <p>&nbsp;</p>
-        </div><!--row-->
-    </div><!--container-->
-<div class="container rcolumn checklist editable">
-<h3>Checklist</h3>        
-    <form role="form">
-        {% for module in site.data.bmgt205.modules %}
-            {% if module.number == 1 %}
-            <div class="checkbox">
-                <label><input  id="check1" onclick="save('check1');" type="checkbox" value=""><h4>Readings</h4></label>
-                    <p>Textbook name {{ module.activities.Reading }}</p>
-            </div><div class="checkbox">
-                <label><input id="check2" onclick="save('check2');" type="checkbox" value=""><h4>Quizzes</h4></label>
-                    <p>Answer the questions from {{ module.activities.Quiz }} of (BOOK NAME)</p>
-            </div><div class="checkbox">
-            <label><input id="check3" onclick="save('check3');" type="checkbox" value="">
-                <h4>Exercises</h4></label><p>Complete the exercise in {{ module.assessments.Exercise }}</p>
-            </div><div class="checkbox">
-            <label><input id="check4" onclick="save('check4');" type="checkbox" value="">
-                <h4>Discussion</h4></label><p>Participate in the discussion on {{ module.assessments.Discussion }}</p> 
-            </div><div class="checkbox">
-            <label><input id="check5" onclick="save('check5');" type="checkbox" value="">
-                <h4>Assignment</h4></label><p>Complete the assignment on {{ module.assessments.Assignment }}</p> 
-            </div><div class="checkbox">
-            <label><input id="check6" onclick="save('check6');" type="checkbox" value="">
-                <h4>Live Sessions</h4></label><p>Attend the live conferencing session held weekly by your instructor using the Collaborate tool.</p>
-            </div>        
-            {% endif %}
-        {% endfor %} 
-</form>
-</div>
+        </div>
+        <div class="col-sm-4">
+            <br />
+            <div class="card checklist">
+                <div class="card-body">
+                    <h3 class="card-title">Checklist</h3>
+                    <form role="form" >
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Reading</h5></label>
+                    <p>Textbook name {{ module.activities.Reading }}.</p>
+                </div>   
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Quiz</h5></label>
+                    <p>Answer the questions from “{{ module.activities.Quiz }}”. </p>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Exercise</h5></label>
+                    <p>Complete the exercise in “{{ module.assessments.Exercise }}”.</p>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Discussion</h5></label>
+                    <p>Participate in the discussion on “{{ module.assessments.Discussion }}”.</p>
+                </div> 
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Assignment</h5></label>
+                    <p>Complete the assignment on “{{ module.assessments.Assignment }}”.</p>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value=""><h5>Live Session</h5></label>
+                    <p>Join your instructor for a live conference using Blackboard Collaborate.</p>
+                </div>
+
+                {% endfor %}
+                </form> 
+                </div>
+            </div>
+        </div>
+    </div><!--row-->
+</div><!--container-->
 <!-- </section> -->
-{% include foot.html %}
-</body>
-</html>
+{% include footdata.html %}

@@ -1,48 +1,49 @@
 ---
+title: Conference
 permalink: "conference.html"
 order: 7
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-    {% include header.html %}
+{% include head.html %}
 
-    <body>
+<body>
 <!-- <body id="page-top"> -->
-{% include nav_stat.html %}
-<!-- Main Content -->
+{% include navdata.html %}    
+    
+{% include header.html %} 
 
-        <div class="container hcolumn editable" style="float:left;">
-            <div class="row" >
-                {content}
-                <br />
-                <p>To join the conference:</p>
-                    <ol>
-                    <li>Click Collaborate under Course Tools on the side menu then scroll to the name of the conference.</li>
-                    <li>Click the conference name to open the Room Details page.</li>
-                    <li>Click the Join Room button to launch the setup process and follow the prompts.</li>
-                    <li>Click the OK button when the Open Meeting Collaborate page appears.</li>
-                    </ol>
-                    <p><strong>Note:</strong></p> You might need to run the Launcher utility when you first join the course. Blackboard will prompt you to "Download the Blackboard Collaborate Launcher".</p>
-                 
-    </div><!--row-->
-</div><!--container-->
-<div class="container hcolumn editable" style="float:right;">
-    <div class="row" >
-        <h2>Miss the session?</h2>
+<!-- Main Content --> 
+<div class="container-fluid editable">
+    <div class="row">
+        <div class="col">
+            {{content}}
+            <p><strong>Note:&nbsp;</strong> This page anticipates when a web conference is scheduled. The actual date may change as circumstances require. Check with your instructor for the correct dates and times. </p>
+            <a href=""><img src="../../images/conference.jpg" class="img-responsive" width="470" height="324"/></a>
+            <br />
+        </div>
+        <div class="col">
+            <h2>Join the conference</h2>
+            <p>To participate:</p>
+            <ol>
+                <li>Click Collaborate under Course Tools on the side menu then scroll to the name of the conference.</li>
+                <li>Click the conference name to open the Room Details page.</li>
+                <li>Click the Join Room button to launch the setup process and follow the prompts.</li>
+                <li>Click the OK button when the Open Meeting Collaborate page appears.</li>
+            </ol>
+            <p><strong>Note:</strong> You might need to run the Launcher utility when you first join the course. Blackboard will prompt you to "Download the Blackboard Collaborate Launcher".</p>
+            <h2>Miss the session?</h2>
             <p>One or two days after the live session, you can use the same link to play a recording of the Collaborate session. Remember to select the Recordings tab on the Collaborate page and search for the date of the live broadcast.</p>   
-        <h2>Presentation File</h2>
+        <!-- <h2>Presentation File</h2>
             <p>The presentation file for this conferencing session is available in Microsoft PowerPoint format. Right-click on the image below and save the file to your computer. (Safari uses "Download linked file" while Firefox and Chrome use "Save Link As". Check your browser for the specific command.)</p>
-            <a href="present.pptx" target="_blank"><img src="../../images/PowerPoint2013.png" class="img-responsive" width="120" height="120"/></a>
+            <a href="present.pptx"><img src="../../images/PowerPoint.png" class="img-responsive" width="120" height="120"/></a>
         <h2>Notes File</h2>
             <p>The presentation notes for this conferencing session are available in Microsoft Word format. Right-click on the image below and save the file to your computer. (Safari uses "Download linked file" while Firefox and Chrome use "Save Link As". Check your browser for the specific command.)</p>
-                     <a href="handout.docx" target="_blank"><img src="../../images/Word2013.png" class="img-responsive" width="120" height="120" /></a>
-                 <br>
-
-        </div><!--row-->
-    </div><!--container-->
+                     <a href="handout.docx"><img src="../../images/Word.png" class="img-responsive" width="120" height="120" /></a> -->
+        </div>  
+        <p>&nbsp;</p>
+  </div><!--row-->
+</div><!--container-->
 <!-- </section> -->
-{% include foot.html %}
-</body>
-</html>
+{% include footdata.html %}

@@ -1,49 +1,31 @@
 ---
+title: Quiz
 permalink: "quiz.html"
 order: 3
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-    {% include header.html %}
+{% include head.html %}
 
-    <body>
+<body>
 <!-- <body id="page-top"> -->
-{% include nav_stat.html %}
-<!-- Main Content -->
+{% include navdata.html %}    
+    
+{% include header.html %} 
 
-    <div class="container fcolumn editable">
-        <div class="row">
-            <img src="../../images/quiz.jpg" width="300" style="float: right;" alt="picture of a stop button">
-            <h2 class="section-heading">Quiz 
-                {% for module in site.data.bmgt205.modules %}
-                    {% if module.number == 1 %}
-                        {{ module.number }}  
-                      {% endif %}
-                {% endfor %}</h2>
-                <p>This quiz focuses on questions from Chapter
-                    {% for module in site.data.bmgt205.modules %}
-                      {% if module.number == 1 %}
-                        {{ module.number }}  
-                      {% endif %}
-                    {% endfor %}  
-                of {{ site.data.bmgt205.textbook }}. You have 30 minutes to answer 10 questions.</p>
-                <p>You can attempt the quiz twice. Only the highest score will be applied to your final grade.</p> 
-            <h3>Instructions</h3>
-                <p>To take the quiz:</p>
-                <ol>
-                    <li>Click Assessments on the side menu then scroll to the name of the quiz.</li>  
-                    <li>Click the quiz name to open the Instructions page.</li>
-                    <li>Read the instructions then click Begin to start the quiz.</li>
-                </ol>
-                <p>You can attempt the quiz two times. Only the highest score will be applied to your final grade.</p>
-                
+<!-- Main Content -->
+<div class="container-fluid editable">
+    <div class="col">
+            <figure class="float-right" style="padding-left: 20px;">
+                <img src="../../images/quiz.jpg" class="figure-img img-fluid" style="width: 20rem;" alt="picture of a stop button">
+                <figcaption class="figure-caption">Source: <cite>Fotolio</cite></figcaption>
+            </figure>
+        
             {{content}}
-            
+        
         </div><!--row-->
     </div><!--container-->
 <!-- </section> -->
-{% include foot.html %}
-</body>
-</html>
+{% include footdata.html %}
+

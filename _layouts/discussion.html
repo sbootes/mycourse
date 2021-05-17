@@ -1,34 +1,31 @@
 ---
+title: Discussion
 permalink: "discussion.html"
 order: 5
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-    {% include header.html %}
+{% include head.html %}
 
 <body>
 <!-- <body id="page-top"> -->
-{% include nav_stat.html %}
-<!-- Main Content -->
+{% include navdata.html %}    
+    
+{% include header.html %} 
 
-<div class="container fcolumn editable">
-        <div class="row">
-            <img src="../../images/discussion.jpg" width="300" style="float: right;" alt="picture of a group of people talking">
-            {{content}} 
-            
-        <h3>Criteria</h3>
-            <p>Your response should focus on one main idea in no more than a couple of paragraphs. Make sure that you contribute an original idea or build on someone else's idea in a meaningful way. Keep your sentences short and readable. Think though your response using the textbook to back up your answers and explain why. </p>
-        <p>Once you have posted your answers, look at the  other postings in this discussion and provide comments to at least two other people. Follow Humber's &quot;<a href="../../starting/netiquette.html">netiquette</a>&quot; policy and be constructive and  respectful in your comments - especially when you disagree.</p>
-        <p>This discussion is worth 8 points, which are converted into 1 percent of your overall grade. Open the <a href="../../source/rubrics/DiscussionRubric.docx" target="_blank">rubric page</a> to see how this discussion is marked.</p>
+<!-- Main Content --> 
+  <div class="container-fluid editable">
+  	<div class="col">
+        <figure class="float-right" style="padding-left: 20px;">
+                    <img src="../../images/discussion.jpg" class="figure-img img-fluid" style="width: 20rem;" alt="a group of people talking">
+                    <figcaption class="figure-caption">Source: <cite>Fotolio</cite></figcaption>
+                </figure>
+        {{content}} 
 
-        </div><!--row-->
-    </div><!--container-->
-     <p>&nbsp;</p>
+    <p>&nbsp;</p>
   </div><!--row-->
 </div><!-- container-->
 <!-- </section> -->
-{% include foot.html %}
-    </body>
-</html>
+{% include footdata.html %}
+

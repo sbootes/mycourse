@@ -1,0 +1,51 @@
+---
+title: Commentary
+permalink: "commentary.html"
+order: 2
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+<!-- <body id="page-top"> -->
+{% include navdata.html %}    
+    
+{% include header.html %} 
+
+<!-- Main Content --> 
+    
+<div class="container-fluid editable">
+        <div class="row" style="padding-left: 1rem;">
+            {% contentblock myintro %}      
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+            {% contentblock subtopic1 %}    
+            </div>
+            <div class="col-md-5">
+            <figure class="iframe">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/Ptk_1Dc2iPY" class="embed-responsive-item" target="_blank" allowfullscreen="true" title="xxxxxxxxxxxx? by xxxxxxxxxxxx" ></iframe>
+                    </div>
+                </figure>
+                <figcaption class="figure-caption">Source:<cite>Gregg Learning</cite>&nbsp;at:&nbsp; https://youtu.be/MnvWxZhsvKA</figcaption>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-7">
+            {% contentblock subtopic2 %}    
+            </div>
+        </div>
+    
+    
+        <div class="row">
+            <div class="col-md-7">
+            {% contentblock subtopic3 %}    
+            </div>
+        </div><!--row-->   
+</div><!--container-->
+<!-- </section> -->
+{% include footdata.html %}
