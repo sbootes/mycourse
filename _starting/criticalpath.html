@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <title>Critical Path</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Getting Started Section">
-  <meta name="author" content="Scott Bootes">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+<head>
+<meta charset="utf-8">
+    <title>Bootstrap 4.6 prototype: Critical Path</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Getting Started Section">
+    <meta name="author" content="scott bootes">
+	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
 	<link href="../assets/css/style.css" rel="stylesheet">
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
- 
+    <!-- Custom Icons -->
+    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet"> 
+    <!-- Humber ACCBAR -->
+    <link href="https://humber.ca/el_dev/acc_bar/accbar.css" rel="stylesheet">
   <style>
   .brand{
 	background: #0097a9;
@@ -32,7 +32,7 @@ layout: default
 		/* height: 400px; */
 		}
 	h1 {
-		padding-top: 40px;
+		padding-top: -3em;
 		font-size: 4em;
 		font-weight: bold;
 		text-align: center;
@@ -57,35 +57,38 @@ layout: default
 		}
 
   </style>
-  </head> 
-  <body>
-  <!-- Page Header -->
-      <div class="container-fluid">
-        <div class="row clearfix">
-            <div class="col-sm-12 column">
-                <!-- Change the name of the banner to banner.jpg in the image folder -->
-                <header class="intro-header" style="background-image: url('../images/banner.jpg')">
-                    <h1>Critical Path<br /><small style="color: white;">{{ site.data.bmgt205.course }}, {{ site.data.bmgt205.code }}, [Semester]</small> <br /> 
-                    <!-- <button type="button" class="btn btn-danger btn-lg" onclick="myFunction()">&nbsp;&nbsp;Print&nbsp;&nbsp;</button> --> </h1>
+</head> 
+<body data-tags="'p','span','a','h1','h2','h3','h4','h5','ul','li','ol','label'">
+<!-- Page Header -->
+<header class="header" style="background-image: url('img/compass_rose.jpg')">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>Critical Path<br /><small style="color: white;">{{ site.data.bmgt205.course }} ({{ site.data.bmgt205.code }}) </small></h1> 
                 </div>
-                <p>The critical path is your course schedule. It is identifies the tasks you are expected to accomplish each week in order to ensure your academic success. You are strongly advised to print out a copy of the critical path and to refer to it regularly. Use the Print command on your browser to make a copy.</p>
-			</div>
+            </div>
         </div>
-    <div class="row clearfix">
- 		<div class="col-sm-12">
+    </div>
+</header>   
+<!-- Main Content -->    
+<div class="container-fluid editable">
+    <div class="row">
+        <div class="col-md-12">    
+            <p>The critical path is your course schedule. It identifies all of the work you are expected to complete each week. It is subject to change as needed by your instructor. (Any modifications will be communicated through an Announcement.) You are strongly advised to print out a copy of the critical path and to refer to it regularly. Use the Print command on your browser to make a copy.</p>
             <table class="table table-hover">
             <thead>
               <tr class="brand">
-                <th width="5%" scope="col">#</th>
-                <th width="10%" scope="col">Start Date</th>
-                <th width="20%" scope="col">Module</th>
+                <th width="7%" scope="col">Week #</th>
+                <th width="10%" scope="col">Start Date </th>
+                <th width="20%" scope="col">Topics</th>
                 <th width="20%" scope="col">Activities</th>
-                <th width="20%" scope="col">Assessments</th>
-                <th width="10%" scope="col">Due Date</th>
-                <th width="5%" scope="col">Weight</th>
+                <th width="20%" scope="col">Graded Work</th>
+                <th width="10%" scope="col">Due Dates</th>
+                <th width="5%" scope="col">Value</th>
                 <!-- align="left" valign="top" -->
               </tr>
-            </thead>  
+            </thead> 
             <tbody>
             {% for module in site.data.bmgt205.modules %}
                 <tr>
@@ -109,7 +112,8 @@ layout: default
                         {% endfor %}
                         </ul></td>
                 </tr>
-             {% endfor %}    
+             {% endfor %} 
+                
           <tr class="brand">
                 <td colspan="6" style="font-weight: bold; text-align: center;">Summary</td>
                 <td> </td>
@@ -141,26 +145,11 @@ layout: default
 		</div>
 	</div>
 </div>
-    <!-- Footer: Do not change -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-                    <p class="copyright">©
-                        <script type="text/javascript">
-                            var theDate = new Date()
-                            document.write(theDate.getFullYear())
-                        </script> by Humber College - All rights reserved</p>
-                    <!-- <a href="readreflect.html"><button type="button" class="btn btn-default btn-lg">Next</button></a> -->
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    &nbsp;  
-	<!-- <script>function myFunction() { window.print();} </script> -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+&nbsp;  
+<!-- <script>function myFunction() { window.print();} </script> -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script> <!-- for accbar -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="https://humber.ca/el_dev/acc_bar/accbar.js"></script>
   </body>
 </html>

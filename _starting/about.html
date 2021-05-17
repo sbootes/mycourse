@@ -1,89 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>What to Expect</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Getting Started Section">
-  <meta name="author" content="Scott Bootes">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+<meta charset="utf-8">
+    <title>Bootstrap 4.6 prototype</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="scott bootes">
+	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
 	<link href="../assets/css/style.css" rel="stylesheet">
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-
+    <!-- Custom Icons -->
+    <link href="../../assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- Humber ACCBAR -->
+    <link href="https://humber.ca/el_dev/acc_bar/accbar.css" rel="stylesheet">
   <style>
-    .page-header{
-   		background: url(img/StudentsInClass.jpg) no-repeat center center;
-		background-size: 100%;
-		width: auto;
-		height: 400px;
-		}
-	.panel-brand {
-		float: left;
-		transform: translateY(286%);
-		padding-left: 3%;
-		padding-right: 3%;
-		background-color: #F05574;
-		}
-	.panelheader{
-		font-size: 4em;
-		font-weight: bold;
-		color:#FFF;
-		}
-	h2 { 
-		text-align: center;
-		}
-   </style>
-  
+      header{
+          height:26rem;   
+        }
+      .nameplate {
+          background-color: #F05574;
+        }
+      h2 {
+            color: #F05574;
+            font-weight: bold;
+        }
+      h3 { 
+			color: #F05574;
+            font-weight: bold;
+        }
+   </style>  
 </head>
-
-<body>
-<div class="container-fluid">
-	<div class="row clearfix">
-		<div class="col-sm-12 column">
-			<div class="page-header">
-				<div class="panel panel-brand">
-            	<p class="panelheader">&nbsp;What to expect</p></div>
-			</div>
-		</div>
-	</div>
-	<div class="row clearfix">
-    		<div class="col-sm-6">
-            <h2>About this course</h2>
-            <p>This course runs for 15 weeks over the internet using an online format. It includes a major project, group-work, mid-term and final exam components. Your participation is required at specific times for some of the group activities. Check the Critical Path document for specific dates and times. The final exam must be written in-person; on campus or at one of Humber’s designated testing centres.</p>
-        <p>During this course, plan for about seven (7) hours of work each week. Class activity (readings, quizzes, discussions and live conferences) should take about three (3) hours per week. Individual activity (homework, tests and team assignments) should take about four (4) hours per week. Individual results will vary. The more organized and familiar you are with the topic, the less time it will take to complete your weekly tasks.</p>
-        		<h3>System requirements</h3>
-                	<p>For this course you will need:</p>
-        				<ul>
-        					<li>Access to a computer or tablet</li>
-            				<li>Access to the internet (preferably high-speeed)</li>
-            				<li>A headset for online discussions</li>
-            				<li>A web browser supported by Blackboard</li>
-            				<li>The Blackboard Collaborate Launcher for web conferencing</li>
-            				<li>The Flash plugin from Adobe for some animations</li>          
-        				</ul>
+<body data-tags="'p','span','a','h1','h2','h3','h4','h5','ul','li','ol','label'">
+<!-- Page Header -->    
+<header class="header" style="background-image: url('img/StudentsInClass.jpg')">
+    <div class="container-fluid" style="padding-right: 0rem;">
+        <div class="row">
+            <div class="col-md-12 column">
+                <div class="clearfix">
+                    <div class="nameplate">
+                        <p class="nameplate-header">What to expect</p>
+                    </div>
+                </div>
             </div>
-        	<div class="col-sm-6">
-            <h3>What’s different</h3>
-        <p>Online courses are NOT the same as in-class courses. You can achieve the same learning outcome with an online course but the delivery method creates important differences in how you organize yourself. Watch this Welcome video about Distance Learning to see what’s different:</p>
-        <a href="https://youtu.be/zSo8oBkIf_8" target="_blank"><img src="img/OnlineLearning.jpg" style="border: 2px solid black" class="img-responsive" alt="Welcome viedo about online learning"></a>
-        <p>Source:&nbsp;https://youtu.be/zSo8oBkIf_8</p>
-        <br /><br />
-       </div>
+        </div>
     </div>
-  </div>
-		
-    
+</header>   
+<!-- Main Content -->
+<div class="container-fluid">	
+    <div class="row clearfix">
+        <div class="col-sm-6">
+            <h2>About this course</h2>
+            <p>You have enrolled in an online section of this course. It will be delivered completely online&mdash;you do not have to physically come to the College for classes. However, some activities such as group meetings and live conference sessions may require your participation at specific times. Pay close attention to communications from your instructor for these details.  The final exam must be written in-person&mdash;either on campus or through a virtual proctor at an approved testing location. Your instructor can provide you with details about this as the course progresses.</p>
+            <p>In order to do well in this course, you can generally expect to complete between 7 and 10 hours of work per week. This will vary throughout the term&mdash;with some weeks being lighter or heavier than others. The most important things you can do to manage this workload successfully are to stay organized and to avoid procrastination. Use the Critical Path as your roadmap to stay on track with all course work.</p>
+            <h3>System requirements</h3>
+                <p>For this course you will need:</p>
+                <ul>
+                    <li>Access to a computer or tablet</li>
+            		<li>Access to the internet (preferably high-speeed)</li>
+            		<li>A headset for online discussions</li>
+            		<li>A web browser supported by Blackboard</li>
+            		<li>The Blackboard Collaborate Launcher for web conferencing</li>
+            		<li>The Flash plugin from Adobe for some animations</li>          
+                </ul>
+            </div>
+        <div class="col-sm-6">
+            <h3>What’s different</h3>
+            <p>Online courses are NOT the same as in-class courses. You can achieve the same learning outcome with an online course but the delivery method creates important differences in how you organize yourself. Watch this Welcome video about Distance Learning to see what’s different:</p>
+            <figure class="" >
+                <a href="https://youtu.be/zSo8oBkIf_8" target="_blank"><img src="img/OnlineLearning.jpg" class="figure-img img-fluid" style="width:100%; border: 2px solid black;" alt="Welcome viedo about online learning"></a>
+                <figcaption class="figure-caption">Source:&nbsp;https://youtu.be/zSo8oBkIf_8</figcaption>
+            </figure>
+        </div>
+    </div>
 </div>
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!--<script type="text/javascript" src="js/scripts.js"></script> -->
+<br />
+<!-- javascript links so page loads faster: Do not change -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script> <!-- for accbar -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="https://humber.ca/el_dev/acc_bar/accbar.js"></script>
 </body>
 </html>

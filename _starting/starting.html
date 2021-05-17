@@ -1,133 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Getting Started</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Getting Started Section">
-  <meta name="author" content="Scott Bootes">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+<meta charset="utf-8">
+    <title>Bootstrap 4.6 prototype</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="scott bootes">
+	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
 	<link href="../assets/css/style.css" rel="stylesheet">
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-
+    <!-- Custom Icons -->
+    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet"> 
+    <!-- Humber ACCBAR -->
+    <link href="https://humber.ca/el_dev/acc_bar/accbar.css" rel="stylesheet">
   <style>
-    .page-header{
-   		background: url(img/students1small.jpg) no-repeat center center;
-		background-size: 110%;
-		width: auto;
-		height: 400px;
-		}
-	.panel-brand {
-		float: right;
-		padding-right: 5%;
-		background-color: #63C;
-		transform: translateY(200%);
-		}
-	.panel-header {
-		font-size: 4em;
-		font-weight: bold;
-		color:#FFF;
-		
-		}
-	h2 { 
-		text-align: center;
-		}
+      header{
+	       height:26rem;   
+           }
+     .nameplate {
+         background-color: #6633cc;
+          }
+      h2 {
+          color: #000000;
+          font-weight: bold;
+          text-align: center;
+		  }
+      h3 { 
+			/* color: #0d45dd; */
+            font-weight: bold;
+        }
+      /* links */
+		a:link {color: #393da7;}
+		a:visited {color: #6633cc;}
+		a:hover {color: #393da7;}
+		a:active {color: #393da7;} 
+      
    </style>
-  
 </head>
-
-<body>
+<body data-tags="'p','span','a','h1','h2','h3','h4','h5','ul','li','ol','label'">
+<!-- Page Header -->            
+<header class="header" style="background-image: url('img/students1small.jpg')">
+    <div class="container-fluid" style="padding-right: 0rem;">
+        <div class="row">
+            <div class="col-md-12 column">
+                <div class="clearfix">
+                    <div class="nameplate">
+                        <p class="nameplate-header">&nbsp;<i class="bi bi-chevron-down"></i>&nbsp;Success starts here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>        
+<!-- Activities Section -->
 <div class="container-fluid">
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<div class="page-header">
-				<div class="panel panel-brand">
-            	<p class="panel-header">&nbsp;<i class="fa fa-chevron-down"></i>&nbsp;Success starts here</p>
-        	</div>
-			</div>
-		</div>
-	</div>
-	<div class="row clearfix">
-		<div class="col-xs-6 col-sm-4">
-			<div class="well well-sm">
-            <h4><i class="fa fa-cog"></i>&nbsp;<a href="https://help.blackboard.com/en-us/Learn/9.1_SP_10_and_SP_11/Student/003_Browser_Checker" target="_blank">Get set up</a></h4>
-			<p>Run a check on your web browswer's settings and test that you can access all parts of the course.</p><br />
+    <div class="row clearfix">
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-gear-fill"></i>&nbsp;<a href="https://help.blackboard.com/en-us/Learn/9.1_SP_10_and_SP_11/Student/003_Browser_Checker" target="_blank">Get set up</a></h4>
+                    <p>Run a check on your web browser's settings and test that you can access all parts of the course.</p><br />
+                </div>
             </div>
-            <div class="well well-sm">
-            <h4><i class="fa fa-eye"></i>&nbsp;<a href="teacher.html">Meet your teacher</a></h4>
-			<p>It's nice to know who you're working with. Find out a bit about your instructor and what he or she expects from you and the class.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-printer-fill"></i>&nbsp;<a href="criticalpath.html">Read the critical path</a></h4>
+			         <p>The critical path is the course schedule. It contains important dates for exams, meetings and tests. Print a copy and refer to it often.</p>
+                </div>
             </div>
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<div class="well well-sm">
-            <h4><i class="fa fa-download"></i>&nbsp;<a href="CourseOutline.pdf">Copy the course outline</a></h4>
-			<p>The outline is your record of the course and learning goals. Download a copy for your records. (Sorry but the college doesn't always keep copies.)</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-key-fill"></i>&nbsp;<a href="about.html">Learn about online courses</a></h4>
+			         <p>Every course has different goals and methods. Learning on-line is also different from in-class. Find out what to expect.</p>
+                </div>
             </div>
-            <div class="well well-sm">
-            <h4><i class="fa fa-user"></i>&nbsp;<a href="https://www.youtube.com/watch?v=LuUTg9LSGG4" target="_blank">Create your profile</a></h4>
-			<p>Tell us what you want everyone to know about you. (Just the public stuff - keep your personal life private.) This video shows you how.</p>
-            <!-- https://ui.cloud.bb/profiles/me -->
-            </div>	
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<div class="well well-sm">
-            <h4><i class="fa fa-print"></i>&nbsp;<a href="criticalpath.html">Print the critical path</a></h4>
-			<p>The critical path is the course schedule. It contains important dates for exams, meetings and tests. Print a copy and refer to it often.</p>
+        </div>
+    </div>
+    <br />
+    <div class="row clearfix">
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-eye-fill"></i>&nbsp;<a href="teacher.html">Meet your teacher</a></h4>
+                    <p>It's nice to know who you're working with. Find out a bit about your instructor and what he or she expects from you and the class.</p><br />
+                </div>
             </div>
-            <div class="well well-sm">
-            <h4><i class="fa fa-hand-o-right"></i>&nbsp;<a href="about.html">Learn about online courses</a></h4>
-			<p>Every course has different goals and methods. Learning on-line is also different from in-class. Find out what to expect.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-download"></i>&nbsp;<a href="CourseOutline.pdf" target="_blank">Read the course outline</a></h4>
+                    <p>The outline is your record of the course and learning goals. Download a copy for your records. (Sorry but the college doesn't always keep copies.)</p>
+                </div>
             </div>
-		</div>
-	</div>
-	<div class="row no-gutters">
-    	<h2>Resources for extra help&nbsp;&nbsp;<small>(external links)</small></h2>
-        <div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/onlinelearning/chat.html" target="_blank"><img src="img/StudentSupportAdvisor.png" alt="Chat with a student advisor" class="img-responsive"></a>
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/onlinelearning/" target="_blank"><img src="img/OLC.png" alt="the Open Learning Centre" class="img-responsive"></a>
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/bb91help/student.php" target="_blank"><img src="img/BlackboardStudentHelp.png" alt="Blackboard student help" class="img-responsive"></a>
-		</div>
-	</div>
-	<div class="row no-gutters">
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/student-life/swac/accessible-learning" target="_blank"><img src="img/AccessSupport-2.jpg" alt="Accessibility Support Centre" class="img-responsive"></a>   
-		</div>      
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/learningresources/peer-tutoring" target="_blank"><img src="img/PeerTutoring.jpg" alt="Peer Tutoring" class="img-responsive"></a>
-		</div>
-        <div class="col-xs-6 col-sm-4">
-			<a href="https://humber.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=6bb84b5a-c63a-e511-940f-b8ca3a5db7a1&cmi_mnuMain=f53a8336-4c87-e211-87e9-f04da23e67f4&cmi_mnuMain_child=8fb89d35-b838-dd11-abb7-0030485a6b08" target="_blank"><img src="img/MSofficeFree.jpg" alt="Free software offer" class="img-responsive"></a>
-		</div>
-    </div>      
-     <div class="row no-gutters">
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/learningresources/math-centre" target="_blank"><img src="img/MathCentre.jpg" alt="the Math Centre" class="img-responsive"></a>   
-		</div>
-        <div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/learningresources/writing-centre" target="_blank"><img src="img/WritingCentre.jpg" alt="Writing Tutors" class="img-responsive"></a>
-		</div>      
-		<div class="col-xs-6 col-sm-4">
-			<a href="http://www.humber.ca/learningresources/accounting-centre" target="_blank"><img src="img/AccountingCentre.jpg" alt="Peer Tutoring" class="img-responsive"></a>
-		</div>
-        
-	</div>
-    <br /><br />
+            <div class="card">
+                <div class="card-body">
+                    <h4><i class="bi bi-person-badge"></i>&nbsp;<a href="https://www.youtube.com/watch?v=LuUTg9LSGG4" target="_blank">Create your profile</a></h4>
+                    <p>Tell us what you want everyone to know about you. (Just the public stuff - keep your personal life private.) This video shows you how.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- Resources Section -->
+<div class="container-fluid">
+    <h2>Resources for extra help&nbsp;&nbsp;<small>(external links)</small></h2>
+    <div class="col clearfix">
+        <div class="card-group">
+            <div class="card resource">
+                <a href="https://www.humber.ca/onlinelearning/chat.html" target="_blank"><img src="img/StudentSupportAdvisor.png" alt="Chat with a student advisor" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.humber.ca/onlinelearning/" target="_blank"><img src="img/OLC.png" alt="the Open Learning Centre" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.humber.ca/bb91help/student.php" target="_blank"><img src="img/BlackboardStudentHelp.png" alt="Blackboard student help" class="figure-img img-fluid resource"></a>
+            </div>
+        </div>
+    </div>
+    <div class="col ">
+        <div class="card-group">
+            <div class="card">
+                <a href="https://www.humber.ca/student-life/swac/accessible-learning" target="_blank"><img src="img/AccessSupport-2.jpg" alt="Accessibility Support Centre" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.humber.ca/learningresources/peer-tutoring" target="_blank"><img src="img/PeerTutoring.jpg" alt="Peer Tutoring" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://humber.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=6bb84b5a-c63a-e511-940f-b8ca3a5db7a1&cmi_mnuMain=f53a8336-4c87-e211-87e9-f04da23e67f4&cmi_mnuMain_child=8fb89d35-b838-dd11-abb7-0030485a6b08" target="_blank"><img src="img/MSofficeFree.jpg" alt="Free software offer" class="figure-img img-fluid resource"></a>
+            </div>
+        </div>
+    </div>
+    <div class="col clearfix">
+        <div class="card-group">
+            <div class="card">
+                <a href="https://www.humber.ca/learningresources/math-centre" target="_blank"><img src="img/MathCentre.jpg" alt="the Math Centre" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.humber.ca/learningresources/writing-centre" target="_blank"><img src="img/WritingCentre.jpg" alt="Writing Tutors" class="figure-img img-fluid resource"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.humber.ca/learningresources/accounting-centre" target="_blank"><img src="img/AccountingCentre.jpg" alt="Peer Tutoring" class="figure-img img-fluid resource"></a>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!--<script type="text/javascript" src="js/scripts.js"></script> -->
+
+<br />
+<!-- javascript links so page loads faster: Do not change -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script> <!-- for accbar -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="https://humber.ca/el_dev/acc_bar/accbar.js"></script>
 </body>
 </html>

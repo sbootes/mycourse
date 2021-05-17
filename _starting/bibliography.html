@@ -1,0 +1,102 @@
+---
+layout: default
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Bootstrap 4.6 prototype: Critical Path</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Getting Started Section">
+    <meta name="author" content="scott bootes">
+	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+	<link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Custom Icons -->
+    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet"> 
+    <!-- Humber ACCBAR -->
+    <link href="https://humber.ca/el_dev/acc_bar/accbar.css" rel="stylesheet">
+  <style>
+  .brand{
+	background: #0097a9;
+	color:white;
+  }
+	.page-header{
+   		margin-top: -20px;
+		padding-top: 0px;
+		background: url(img/bibliography.jpg) no-repeat center top;
+		background-size: 100% 100%;
+		width: auto;
+		/* height: 400px; */
+		}
+	h1 {
+		padding-top: -3em;
+		font-size: 4em;
+		font-weight: bold;
+		text-align: center;
+		color:#000000;
+		/* transform: translateY(50%); */
+		}
+  </style>
+</head> 
+<body data-tags="'p','span','a','h1','h2','h3','h4','h5','ul','li','ol','label'">
+<!-- Page Header -->
+<header class="header" style="background-image: url('img/bibliography.jpg')">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1> </h1> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>   
+<!-- Main Content -->    
+<div class="container-fluid editable">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>{{- site.data.bibliography.course -}} &nbsp; ({{- site.data.bibliography.code -}})</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit condimentum mi at tincidunt. Proin luctus tellus sagittis arcu molestie pulvinar. Integer dignissim nunc sapien, commodo commodo nunc aliquet ut. Pellentesque nec purus id orci pretium egestas ac at tortor. In faucibus sapien eros, sed mattis nisi convallis ac. </p>      
+            {%- for item in site.data.bibliography.items -%}
+                <h3>Module {{ item.module }}</h3>
+                <p>{{item.author }} {{ item.year}}, {{ item.title }}, {{ item.medium }}<br /> {{ item.publisher }} {{ item.link }} </p>
+            {%- endfor -%}
+
+<!-- 
+
+Examples:
+- "Retrospective — Looking back at the good and bad of previous experiences" by [author] for I’d [publisher] (2016)
+
+- "Citation: A (Very) Brief Introduction" NC State University Libraries (2014) [video] 
+
+- The Canadian Press ( [date] ) Maple Leaf Foods trims fat with 5-year plan [website], [publisher],
+Retrieved from: http://www.cbc.ca/news/business/maple-leaf-foods-trims-fat-with-5-year-plan-1.900621 [link]
+
+<div class="col-md-5">
+    <figure class="iframe">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="[Embed Link]" class="embed-responsive-item" target="_blank" allowfullscreen title="[title] + [author]" ></iframe>
+        </div>
+    </figure>
+    <figcaption class="figure-caption">Source:<cite> [Caption]</cite> [link] </figcaption>
+</div>
+            
+Watch the video “[Title]” by Atlassian’s Agile Coach. The video was published in January of 2019 and is [Time] minute    
+-->            
+            
+          
+          <br />
+		</div>
+	</div>
+</div>
+&nbsp;  
+<!-- <script>function myFunction() { window.print();} </script> -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script> <!-- for accbar -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="https://humber.ca/el_dev/acc_bar/accbar.js"></script>
+  </body>
+</html>

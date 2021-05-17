@@ -1,26 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Meet your teacher</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Getting Started Section">
-  <meta name="author" content="Scott Bootes">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+<meta charset="utf-8">
+    <title>Meet your teacher</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Getting Started Section">
+    <meta name="author" content="scott bootes">
+	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
 	<link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Custom Icons -->
+    <link href="../../assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- Humber ACCBAR -->
+    <link href="https://humber.ca/el_dev/acc_bar/accbar.css" rel="stylesheet">
+<style>
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-  
-  <style>
-    .well-header{
-		margin-top: 2.5%;
-		width: auto;
-		height: 200px;
-		}
 	.header{
 		font-size: 2em;
 		font-weight: bold;
@@ -38,68 +34,62 @@
 		border-width: 1px;
 		color: #000000;  
 		}
-	.pull-left {
-		float: left !important;
-		padding-right: 1%;
-		}
-	.pull-right {
-		float: right !important;
-		padding-left: 1%;
-		}
-	.center {
-		width: auto;
-		margin: auto;
-		padding: 0%;
-		border:0px;
-		}
 	
-   </style>
-  
+   </style>  
 </head>
-
-<body style="background: url(img/hillylandscape.jpg) no-repeat top center;">
-<div class="container" style="width:100%;"> 
-	<div class="row clearfix">
-		 <div class="col-sm-12 column">
-			<div class="well well-header">
-            	<div class="pull-left">
-                	<img src="img/teacher.jpg" alt="a picture of your instructor; 'Mr. Wonderful'">
-                </div>
-                <div class="pull-right">
-                	<p>Department: The Business School<br />
-                	Email: first.last@humber.ca<br />
-                	Phone: 416.675.6622 X4391</p>
-                    <hr />
-                    <p>Office Hours:<br />
-                    Wednesday 7PM - 8PM?</p>
-                </div>
-                <div class="center">
-                	<p class="header">Your Name <small>(MA., Phd., etc.)</small></p>
-                    <p>Provide a short, one-paragraph description about yourself. Tell people your interests, what you currently teach and any other public information your students might like to know. (And don't forget to change the picure too!)</p>
+<body style="background: url(img/hillylandscape.jpg) no-repeat top center;" data-tags="'p','span','a','h1','h2','h3','h4','h5','ul','li','ol','label'">
+<div class="container-fluid editable"> 
+	<div class="row">
+        <div class="col-sm-12">
+             <div class="card teacher" >
+                 <div class="row">
+                     <div class="col-md-2">
+                     <img src="img/teacher.jpg" alt="a picture of your instructor; 'Mr. Wonderful'">
+                     </div>
+                     <div class="col-md-7">
+                        <h3>Your Name (MA., Phd., etc.)</h3>
+                        <p>Provide a short, one-paragraph description about yourself. Tell people your interests, what you currently teach and any other public information your students might like to know. (And don't forget to change the picure too!)</p>
+                     </div>
+                     <div class="col-md-3">
+                        <p>Department: The Business School<br />
+                	       Email: first.last@humber.ca<br />
+                	       Phone: 416.675.6622 X4391</p>
+                            <hr />
+                            <p>Office Hours:<br />
+                            by appointment</p>
+                     </div>
+                 </div>
+             </div>
+        </div>   
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <br />
+            <div class="card">
+                <div class="card-body">
+                    <h3>Affiliations:</h3>
+                    <p>For example:</p>
+                    <p>Content Marketing Institute</p>
+                    <p>Knowlege Centered Support</p>
+                    <p>Qualtiy Matters</p>
                 </div>
             </div>
-         </div>
-     </div>       
-    <div class="row clearfix">
-    	<div class="col-sm-4">
-        	<div class="well">
-            	<h3>Affiliations:</h3>
-                <p>For example:</p>
-                <p>Content Marketing Institute</p>
-                <p>Knowlege Centered Support</p>
-                <p>Qualtiy Matters</p>
-            </div>
-            <div class="well">
-            	<h3>Ways to connect:</h3>
-                <p>Website: <a href="http://www.your website.com">www.your website.com</a></p>
-                <p>LinkedIn: <a href="http://ca.linkedin.com/in/yourname">Your Name</a></p>
-                <p>Facebook: <a href="https://www.facebook.com/your address">https://www.facebook.com/Your site address</a></p>
-                <p>Twitter: <a href="https://twitter.com/name"> @name</a></p>
-                <p>Blog</p>
+            <br />
+            <div class="card">
+                <div class="card-body">
+                    <h3>Ways to connect:</h3>
+                    <p>Website: <a href="http://www.your website.com">www.your website.com</a></p>
+                    <p>LinkedIn: <a href="http://ca.linkedin.com/in/yourname">Your Name</a></p>
+                    <p>Facebook: <a href="https://www.facebook.com/your address">https://www.facebook.com/Your site address</a></p>
+                    <p>Twitter: <a href="https://twitter.com/name"> @name</a></p>
+                    <p>Blog</p>
+                </div>
             </div>
         </div>
-        <div class="col-sm-8">
-        	<div class="well">
+        <div class="col-md-8">
+            <br />
+            <div class="card">
+            <div class="card-body">
                 <h3>Experience</h3>
                 <p>Provide one paragraph about what you curerntly do. If you work in private indusry, tell them a bit about how you got to be where you are. If you bring something to this teaching role because of your work, tell use. If you are full time faculty, what is your focus? What committes are you sitting on or what papers have you published?</p>
                 <h3>Interests</h3>
@@ -107,18 +97,16 @@
                 <h3>Social Media or other tools</h3>
                 <p>If you use social media, this is a great spot to post your activities. Web sites like Twitter, Flicker, and others often provide plugins that you can cut and paste into am web page if you know a little HTML.</p>
                 <br /><br />
-            </div>       
-       </div>
-    </div>
-  </div>
-		
-    
-</div>
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!--<script type="text/javascript" src="js/scripts.js"></script> -->
+            </div>
+            </div>
+        </div>
+    </div>   
+<br />
+</div>       
+<!-- javascript links so page loads faster: Do not change -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script> <!-- for accbar -->
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="https://humber.ca/el_dev/acc_bar/accbar.js"></script>
 </body>
 </html>
