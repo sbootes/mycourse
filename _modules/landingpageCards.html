@@ -10,47 +10,56 @@ layout: default
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="scott bootes">
-	<!-- Core Style Sheet Bootstrap v4.6.0 -->
+	<!-- Core Style Sheet Bootstrap v4.0.0 -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="../assets/css/styleB.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="../../assets/css/bootstrap-icons.css" rel="stylesheet"> 
 </head>
 <body>
 <!-- Page Header -->
-    <!-- Change the name of the image to banner.jpg in the image folder -->
-    <header class="intro-header" style="background-image: url('../images/banner.jpg')">
+    <header class="intro-header" style="background-image: url('https://source.unsplash.com/XT5OInaElMw/1600x900') ">
+        <video autoplay="autoplay" muted="muted" loop="loop" id="heroVideo">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4" />
+        </video>
          <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>{{ site.data.bmgt205.course }}</h1>
+                        <h1>"Course name"</h1>
                         <hr class="small" />
-                        <h1 class="subhead">{{ site.data.bmgt205.code }}</h1>
+                        <h1 class="subhead">"Course Code"</h1>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+Video Banner:  https://startbootstrap.com/snippets/video-header/    
 <!-- Main Content -->     
 <div class="container-fluid">  
-    <div class="col">            
+    <div class="row row-cols-1 row row-cols-3">
         {% for module in site.data.bmgt205.modules %}
-        <h2><a href="{{ module.number }}/overview.html">Module {{ module.number }}: {{ module.name }}</a></h2>
-        <a href="{{ module.number }}/overview.html" align="left"><img class="icon" src="../assets/ico/week{{ module.number }}.jpg"></a>
-        <p>By the end of this module, you should be able to:</p>
-            <ul style="overflow: hidden;">
-      		    {% for objectives in module.objectives %}
-                    <li>{{ objectives }}</li>
-                    {% endfor %}
-                <br />    
-            </ul>
-            <hr>
-            {% endfor %} 
+        <div class="col-sm-4">    
+            <div class="card zoom mb-3">
+                    <img class="card-img-top" src=" {{ module.image }} " alt=" {{ module.description }} " />
+                <a href="{{ module.number }}/overview.html">
+                <div class="card-img-overlay">
+                    <div class="card-text">
+                        <h2 class="text-center text-white prompt">Click to Enter</h2>
+                    </div>
+                </div>
+                </a>
+                <div class="card-body">
+                    <h4 class="card-title">Module {{ module.number }}&#8212;{{ module.name }}</h4>
+                    <p class="card-text">{{ module.description }}</p>
+                </div>
+            </div>
         </div>
+        {% endfor %}   
+    </div>
+    <br />
 </div>
-<br>
 <!-- Footer: Do not change -->
     <footer>
         <div class="container">
@@ -68,5 +77,7 @@ layout: default
     <script src="../../assets/js/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript: Do not change -->
     <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript: Do not change 
+    <script src="../../assets/js/clean-blog.min.js"></script> -->
 </body>
 </html>
