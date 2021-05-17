@@ -1,0 +1,33 @@
+- title: "Overview"
+  href: "overview.html"
+  after: "commentary.html"
+
+- title: "Commentary"
+  href: "commentary.html"
+  before: "overview.html"
+  after: "quiz.html"
+
+- title: "Quiz"
+  href: "quiz.html"
+  before: "commentary.html"
+  after: "exercise.html"
+  
+- title: "Exercise"
+  href: "exercise.html"
+  before: "quiz.html"
+  after: "discussion.html"
+
+- title: "Discussion"
+  href: "discussion.html"
+  before: "exercise.html"
+  after: "assignment.html"
+  
+  subcategory:
+  - subtitle: "Conference"
+    subhref: "conference.html"
+  
+- title: "Assignment"
+  href: "assignment.html"
+  before: "discussion.html"
+
+...

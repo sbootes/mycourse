@@ -4,10 +4,11 @@ description: what ever you want it to be
 textbook: Developmental Psychology - A Topical Approach (16th ed.)
 
 modules:
-- number: 1
+- number: "01"
   start: May 31
   name: Introduction
   description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     Reading:  ": Chapter 1"
     Quiz:  ": Quiz 1"
@@ -22,16 +23,23 @@ modules:
     - 5%
     - 5%
   objectives:
-    - Explain the importance of services to a country’s economy.
-    - Demonstrate how services are defined using the concept of non-ownership.
-    - Classify a company as one of four common types of business services.
+    - "First Objective, Line 1"
+    - "First Objective, Line 2"
+    - "First Objective, Line 3"
   topics:
-    - "Topic #1"
-    - "Topic #2"
-    - "Topic #3"
-- number: 2
+    - "Topic 1"
+    - "Topic 2"
+    - "Topic 3"
+  articles:
+    - "Article 1"
+    - "Article 2"
+    - "Article 3"    
+    
+- number: "02"
   start: May 13
   name: Commentary
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 2
     - Quiz 2
@@ -49,9 +57,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 3
+- number: "03"
   start: May 24
   name: Project
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 3
     - Quiz 3
@@ -69,9 +79,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 4
+- number: "04"
   start: May 24
   name: Research
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 4
     - Quiz 4
@@ -89,9 +101,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 5
+- number: "05"
   start: May 24
   name: Live Conference
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 5
     - Quiz 5
@@ -109,9 +123,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 6
+- number: "06"
   start: May 24
   name: Project
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 6
     - Quiz 6
@@ -129,21 +145,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 7
-  start: May 31
-  name: Mid-term Exam
-  activities: 
-    - Review - Chapter 1-7
-  assessments: 
-    - On-line
-  end: May 10
-  weight: 
-    - 20%
-  objectives:
-    - Pay attention to the announcements and see the critical path for the exact due dates. Click on the heading for further instructions.
-- number: 8
+- number: "07"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 8
     - Quiz 8
@@ -161,9 +167,33 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 9
+- number: "08"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
+  activities: 
+    - Reading - Chapter 8
+    - Quiz 8
+    - Live Conference 8
+  assessments: 
+    - Exercise 8
+    - Discussion 8
+    - Assignment 8
+  end: May 10
+  weight: 
+    - 5%
+    - 5%
+    - 5%
+  objectives:
+    - Explain the importance of services to a country’s economy.
+    - Demonstrate how services are defined using the concept of non-ownership.
+    - Classify a company as one of four common types of business services.
+- number: "09"
+  start: May 31
+  name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 9
     - Quiz 9
@@ -181,9 +211,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 10
+- number: "10"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 10
     - Quiz 10
@@ -201,9 +233,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 11
+- number: "11"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 11
     - Quiz 11
@@ -221,9 +255,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 12
+- number: "12"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading - Chapter 12
     - Quiz 12
@@ -241,9 +277,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 13
+- number: "13"
   start: May 31
   name: Introduction
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Reading Chapter 13
     - Quiz 13
@@ -261,29 +299,11 @@ modules:
     - Explain the importance of services to a country’s economy.
     - Demonstrate how services are defined using the concept of non-ownership.
     - Classify a company as one of four common types of business services.
-- number: 14
-  start: May 31
-  name: Introduction
-  activities: 
-    - Reading Chapter 14
-    - Quiz 14
-    - Live Conference 14
-  assessments: 
-    - Exercise 14
-    - Discussion 14
-    - Assignment 14
-  end: May 10
-  weight: 
-    - 5%
-    - 5%
-    - 5%
-  objectives:
-    - Explain the importance of services to a country’s economy.
-    - Demonstrate how services are defined using the concept of non-ownership.
-    - Classify a company as one of four common types of business services.
-- number: 15
+- number: "14"
   start: May 31
   name: Final Exam
+  description: This is a description
+  image: "/images/conduct.jpg"
   activities: 
     - Review - Chapter 1-14
   assessments: 

@@ -1,0 +1,115 @@
+course: Human Resources Administration
+code: BMGT 205
+
+items:
+- author: "Beatty, C.A."
+  title:  Communicating During an Organizational Change
+  publisher: Industrial Relations Centre (IRC), Queen’s University
+  date: "2015-05-15"
+  year: (2015)
+  image: [ ]
+  link: "Retrieved from: https://irc.queensu.ca/sites/default/files/articles/communicating-during-an-organizational-change.pdf"
+  medium: "[PDF]" 
+  reference: "required"
+  module: 01
+
+- author: Forward Focus
+  title:  "Constructive Feedback for Managers: Giving Feedback Effectively"
+  publisher: ""
+  date: ""
+  year: (2016)
+  image: ""
+  link: "Retrieved from: https://youtu.be/gi5UfSIf0BM"
+  medium: "[Video file]" 
+  reference: "required"
+  module: 01
+
+- author: "Grapevine Evaluations"
+  title:  "How to Use the STAR Model to Provide Feedback"
+  publisher: ""
+  date: ""
+  year: "(2017)"
+  image: ""
+  link: "Retrieved from: https://www.grapevineevaluations.com/use-star-model-provide-feedback/"
+  medium: "[audio]" 
+  reference: "required"
+  module: 01
+
+- author: "Mawete, J."
+  title:  "Attribution Theory"
+  publisher: ""
+  date: ""
+  year: "(2018)"
+  image: ""
+  link: "Retrieved from: https://youtu.be/pdCP_Ragnwo"
+  medium: "[Video file]" 
+  reference: "required"
+  module: 02
+
+- author: "Memorado "
+  title:  "What is your Emotional Quotient?"
+  publisher: ""
+  date: ""
+  year: "(n.d.)"
+  image: ""
+  link: "Retrieved from: http://memorado.ca/emotional_quotient"
+  medium: "[Self-reflection quiz]" 
+  reference: "supplementary"
+  module: 02
+  
+- author: MindTools Videos
+  title:  "Emotional Intelligence in the Workplace"
+  publisher: 
+  date: 
+  year: "(2018)"
+  image: [ ]
+  link: "Retrieved from: https://youtu.be/hlfPjCviTxA"
+  medium: "[Video file]"
+  reference: 
+  location: 
+  embed: 
+  caption: 
+  month: 
+  year: 
+  time: 
+  module: 02
+ 
+- author: MindTools
+  title:  "Developing Strong People Skills"
+  publisher: Publisher 3
+  date: 2017-07-17
+  year: "(n.d.)"
+  image: [ ]
+  link: "Retrieved from: https://www.mindtools.com/pages/article/newCDV_59.htm"
+  medium: [Web page]
+  reference: 
+  location: 
+  embed: 
+  caption: 
+  month: 
+  year: 
+  time: 
+  module: 02 
+
+- author: Atlassian Agile Coach
+  title:  "Agile Retrospectives Done Right"
+  publisher: Publisher 3
+  date: 2017-07-17
+  image: [ ]
+  link: "https://youtu.be/dJNCHvqKljU"
+  medium: [video]
+  reference: required
+  location: commentary
+  embed: https://www.youtube.com/embed/dJNCHvqKljU
+  caption: Atlassian Agile Coach
+  month: January
+  year: 2019
+  time: 5:09
+  module: 03
+...  
+  
+  
+
+
+
+
