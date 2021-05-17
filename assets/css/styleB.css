@@ -1,0 +1,231 @@
+body{
+    overflow-x:hidden;  /*the overflow x hides the horizontal scrolling bars*/
+    /* font-family:Verdana, Geneva, sans-serif;
+	font-size: 1.2rem; */
+}
+.navbar {
+    background-color: #060707; /* #b4b6b7; Change the navbar color here */
+    background: rgba(10, 10, 10, 0.5);
+    /* opacity: 0.5;
+    filter: alpha(opacity=50); */
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.hamburger {        /* This is the icon when the menu collapses */
+ font-size: 20px;
+ color: #ffffff;
+} 
+.navbar-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2; 
+    text-transform:uppercase;
+    font-weight:bold;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+.navbar-nav a:hover {
+    color: #851527; 
+    /* border-bottom: 3px solid #f2f2f2; */
+}
+.navbar-nav > li.active {       /* "li.active is needed to reference the  */
+    color: #f2f2f2; 
+    border-bottom: 3px solid #f2f2f2; 
+}
+
+.card { 
+  overflow: hidden;
+  cursor:pointer;
+}
+.card-img-overlay:hover {
+    background-color: #2b496c;
+    background: rgba(10, 10, 10, 0.5);
+}
+.prompt {
+    opacity: 0;
+}
+.prompt:hover {
+    opacity: 1;
+    font-size: 3em;
+    padding-top: 20%; 
+}
+.zoom {  
+  transition: transform .1s; /* Animation */
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.container-fluid{
+    padding-top: 1rem;
+    padding-left: 2rem;
+	padding-right: 2rem;
+}
+header{
+	height: 60vh;
+    min-width: auto;
+    min-height: auto;
+    background: rgba(0,0,0,0.3);
+	background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.site-heading{
+    color: #ffffff;   
+    text-align: center;
+	padding-top: 6rem;
+    
+}
+#heroVideo {
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;  
+}
+
+/*
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+*/
+
+h1 {
+    colour:ffffff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+hr.small {
+  max-width: 20rem;
+  margin: 15px auto;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+.subhead{
+	font-size:2rem;
+	padding-top:0px; 
+	}
+
+h2, h3 { 
+	color: #234984; /* #D31E26 #cc3333 */
+}
+.nameplate {
+    float: right;
+    padding-left: 2%;
+	padding-right: 10%;
+    transform: translateY(190%);    /* positions the nameplate vertically */
+}
+.nameplate-header {
+    font-size: 3.75em;
+    color: #ffffff;
+    font-weight: bold;
+}
+/*card styling*/
+.assignment{        /* for module pages */
+	width: 24rem;
+    color: #000000;
+	background-color: #e6e6e5; /* #fec60a */  
+	border-radius:10px 10px 10px 10px;
+	}
+.checklist{         /*  for overview pages */
+    width: 24rem;
+    color: #000000;
+	background-color: #e6e6e5; /* #fec60a */  
+	border-radius:10px 10px 10px 10px;
+}
+.review{ 
+	width: 100%;
+	margin-top:20px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:5px 5px 5px 5px;
+	background-color: #e6e6e5;
+}
+.teacher {          /* for the meet your teacher page */
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.media {          /* for cards on the academic and personal pages  */
+    padding: 1rem;
+    background-color: #e6e6e5;
+}
+.resource{      /* for resource images on the start here page */
+	margin:0px;
+}
+
+/* style for figures and images*/
+.iframe {
+	border-color: #000000; 
+	border: 2px solid; 
+    margin-top: 2rem;
+}
+
+/*
+figcaption {
+    padding-top: 5px;
+    font-size: 0.8em;
+    padding-bottom: 25px;
+}
+*/
+img{
+	padding:0px;
+}
+img.icon{
+	float: left;
+	margin:0px 15px 5px 0px;
+	height:120px;
+	width:120px;
+}
+
+/*footer*/
+footer{
+	/* display:block; */
+	/* clear:both; */
+    margin-top:1rem; 
+    text-align: center;
+	background-color: #003333; /* Change the footer color here */
+}
+.copyright {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom:2rem; 
+  color:white;
+}
