@@ -29,7 +29,8 @@ destination: _site
 collections:
   modules:
     output: true  
-
+  starting:
+    output: true
 
 
 
