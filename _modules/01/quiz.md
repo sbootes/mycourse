@@ -15,7 +15,3 @@ You can attempt the quiz two times. Only the highest score is applied to your fi
 
 
 
-
-
-
-
